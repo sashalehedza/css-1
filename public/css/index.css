@@ -1,0 +1,143 @@
+:root {
+  background: white;
+}
+
+* {
+  color: black;
+}
+
+h1 {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+#blue {
+  color: blue;
+}
+
+section .box p {
+  background: red;
+}
+
+section .box div {
+  background: green;
+}
+
+.brown {
+  background: brown;
+  color: white;
+}
+
+ul > li {
+  background: red;
+}
+
+.header-button + span {
+  background: red;
+}
+
+.susid ~ p {
+  background: blue;
+  color: white;
+}
+
+.salo,
+#bread {
+  background-color: yellow;
+}
+
+.first-task ul li:first-child {
+  color: white;
+}
+
+.second-task ul:first-child li:first-child {
+  color: yellow;
+}
+
+.third-task ul:nth-child(2) li:first-child {
+  background-color: yellow;
+}
+
+.four-task ul li:last-child {
+  background-color: yellow;
+}
+
+.five-task ul:last-child li:last-child {
+  color: white;
+}
+
+.only-child-task > div:only-child {
+  color: red;
+}
+
+.seven-task p:first-of-type {
+  background-color: red;
+}
+
+.eight-task p:last-of-type {
+  background-color: red;
+}
+
+.nine-task .text-wrapper p:only-of-type {
+  background-color: yellow;
+}
+
+.lesson-three-task-one a[href] {
+  color: white;
+}
+
+.lesson-three-task-two li[value] {
+  color: yellow;
+}
+
+.lesson-three-task-three li[value='3'] {
+  background-color: red;
+}
+
+.lesson-three-task-four button.primary {
+  background-color: blue;
+}
+
+.lesson-three-task-five button[class^='secondary'] {
+  background-color: red;
+}
+
+.lesson-three-task-six li[class^='b'] {
+  color: green;
+  background-color: white;
+}
+
+.lesson-three-task-seven li[class*='on'] {
+  color: green;
+  background-color: white;
+}
+
+.lesson-three-task-eight span[class$='s'] {
+  background-color: white;
+  color: blue;
+}
+
+.lesson-three-task-nine h2::first-letter {
+  color: red;
+}
+
+.lesson-three-task-ten p::first-line {
+  background-color: yellow;
+}
+
+.lesson-three-task-eleven input::placeholder {
+  background-color: red;
+}
+
+.lesson-three-task-twelve li::before {
+  content: '➤';
+  margin-right: 5px;
+}
+
+.lesson-three-task-thirteen li::after {
+  content: '➤';
+  margin-left: 5px;
+}
